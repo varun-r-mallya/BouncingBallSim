@@ -64,7 +64,7 @@ int main(int argc, char ** argv)
  
     SDL_Init(SDL_INIT_VIDEO);
  
-    SDL_Window * window = SDL_CreateWindow("SDL2 Displaying Image",
+    SDL_Window * window = SDL_CreateWindow("SDL2 Bouncing Ball sim",
         SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, 0);
         
     SDL_Renderer * renderer = SDL_CreateRenderer(window, -1, 0);
